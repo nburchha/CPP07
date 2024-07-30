@@ -7,6 +7,10 @@ int main()
 	Array<int> a;
 	std::cout << "Size of a: " << a.size() << std::endl;
 
+	// Test empty array creation
+	Array<int> a2(0);
+	std::cout << "Size of a: " << a.size() << std::endl;
+
 	// Test constructor with size parameter
 	Array<int> b(5);
 	std::cout << "Size of b: " << b.size() << std::endl;
